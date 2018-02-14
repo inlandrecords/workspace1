@@ -1,0 +1,242 @@
+@import "variables";
+
+html {
+	overflow:hidden;
+}
+
+/* Background, text colors, and buttons */
+
+@each $color, $light, $regular, $text in 
+	("blue", $light-blue, $blue, $text-blue),
+  ("red", $light-red, $red, $text-red),
+  ("green", $light-green, $green, $text-green),
+  ("purple", $light-purple, $purple, $text-purple),
+  ("orange", $light-orange, $orange, $text-orange),
+  ("gray", $light-gray, $gray, $text-gray),
+  ("grey", $light-gray, $gray, $text-gray),
+  ("black", $light-black, $black, $text-black) {
+
+	.ml-bg-#{$color}-light {
+		background-color: $light;
+	}
+
+	.ml-bg-#{$color} {
+		background-color: $regular;
+		color: #FFFFFF;
+	}
+
+	.ml-text-#{$color} {
+		color: $text;
+	}
+
+	.ml-#{$color}-show,
+	.ml-#{$color}-show:hover,
+	.ml-#{$color},
+	.ml-#{$color}:hover {
+		background-color: $regular;
+		color: white !important;
+	}
+
+	.ml-#{$color}-hide,
+	.ml-#{$color}-hide:hover {
+		background-color: $light;
+		color: $text !important;
+	}
+}
+
+.ml-bg-yellow-light,
+.ml-bg-sample {
+	background-color: #FFFECC;
+}
+
+th {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.centered {
+	text-align: center !important;
+	vertical-align: middle !important;
+}
+
+.td-hide {
+	opacity: 0.000001;
+}
+
+/* Border customization */
+
+.noBorder {
+	border: 0px !important;
+}
+
+.noBorder-left {
+	border-left: 0px !important;
+}
+
+.noBorder-right {
+	border-right: 0px !important;
+}
+
+.noBorder-top {
+	border-top: 0px !important;
+}
+
+.noBorder-bottom {
+	border-bottom: 0px !important;
+}
+
+/* Slider stuff */
+
+.slider.slider-horizontal {
+	width:90% !important;
+	margin: 10px auto !important;
+	display: block !important;
+}
+
+.instructions, .sliderArea {
+	padding-bottom:10px;
+	border-bottom: 1px solid #DDD;
+	margin-bottom:10px;
+}
+
+.btn-collapse {
+	margin-bottom: 5px;
+}
+.sidebar-control {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.sidebar-control:first-child {
+	margin-top: 0;
+}
+
+.btn-sidebar {
+	width: 80%;
+}
+
+.btn-sidebar:nth-child(2):not(:last-child) {
+	width: 60%;
+}
+
+.btn-block {
+	margin-bottom: 5px;
+}
+
+.btn-eval {
+	width: 20%;
+	margin-left: 0px !important;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	min-height: 34px;
+	font-size: 1.32em;
+	font-family: "Georgia", "Apple Symbols", serif;
+}
+
+.btn-sidebar, .btn-dropdown-off, .btn-dropdown-on {
+	min-height: 34px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/* Buttons with dropdown */
+
+.btn-double-sided .btn-sidebar {
+	width: 60%;
+}
+
+.btn-dropdown-off, .btn-dropdown-on {
+	width: 20%;
+	margin-right: 0px !important;
+}
+
+.btn-dropdown-off:focus, .btn-dropdown-on:focus, .btn-sidebar:active, .btn-eval:active {
+	box-shadow: none;
+}
+
+/* Geogebra */
+
+.GeoGebraFrame {
+     border: none !important;
+}
+
+/* td widths */
+
+@for $i from 5 through 50 {
+	@if $i < 10 {
+		.td-0#{$i} {
+			width: 1% * $i;
+		} 
+	} @else {
+		.td-#{$i} {
+			width: 1% * $i
+		}
+	}
+}
+
+/* Desmos stuff for positioning the key on the graphpaper */
+
+.calculator {
+	position: relative;
+}
+.calculator:before {
+	content: attr(title);
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1em;
+}
+.key {
+	position: absolute;
+	top: 35px;
+	right: 70px;
+	border: 1px solid rgb(108, 108, 108);
+	border-radius: 5px;
+	padding: 5px 19px;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 100;
+	box-shadow: 0px 0px 0px 2px rgba(108, 108, 108, 0.2);
+	-moz-box-shadow: 0px 0px 0px 2px rgba(108, 108, 108, 0.2);
+	-webkit-box-shadow: 0px 0px 0px 2px rgba(108, 108, 108, 0.2);
+}
+.key p {
+	margin: 0px; 
+}
+
+/* fullscreen text adjustment */
+
+@media (min-width: 1281px) { 
+	*, .btn { 
+		font-size: 30px; 
+		} 
+
+	input:not(.font-exclude), .form-control {
+		font-size: 30px !important;
+		height: 55px !important;
+	}	
+
+	.key {
+		top: 58px;
+	}
+
+}
+
+/* firefox button adjustment */
+
+.btn-eval, .btn-graph {
+	height: 34px;
+}
+
+/* miscellaneous */
+
+.toggletd, .toggle {
+    cursor: pointer;
+}
+
+.btn-group .btn {
+	margin: 0 !important;
+}

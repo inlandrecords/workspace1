@@ -1,0 +1,966 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red83\green83\blue83;\red67\green67\blue67;\red38\green38\blue38;
+}
+{\*\expandedcolortbl;;\cssrgb\c40000\c40000\c40000;\cssrgb\c33333\c33333\c33333;\cssrgb\c20000\c20000\c20000;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl380\partightenfactor0
+
+\f0\fs32 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "version"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 5\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "graph"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "showGrid"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 false\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "xAxisStep"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 1\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "yAxisStep"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 0.1\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "xAxisMinorSubdivisions"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 1\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "yAxisMinorSubdivisions"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 1\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "xAxisLabel"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "diameter\'a0(in.)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "yAxisLabel"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "percent\'a0of\'a0total"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "viewport"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "xmin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 -19.368992066685543\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "ymin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 -12.686021781008826\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "xmax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 36.96754029209908\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "ymax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 32.59738236889002\
+\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "expressions"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "list"
+\f0\b0 \cf2 \strokec2 :[\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "folder"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "2"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "title"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Parameters"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "memberIds"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "3"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "5"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "6"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "19"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "text"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "5"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "text"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "radius,\'a0crust\'a0thickness,\'a0diameter"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "19"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#2d70b3"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "u=6"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "2"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderInterval"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "1"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "6"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#fa7e19"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "c=1"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "0"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "4"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderInterval"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 ".1"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "3"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#2d70b3"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "d=2u"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "2"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "20"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderInterval"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "1"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "folder"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "8"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "title"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Pizza\'a0Diagram"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "collapsed"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "memberIds"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "9"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "10"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "11"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "12"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "15"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "16"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "18"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "20"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "25"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "26"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "27"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "text"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "10"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "text"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "center\'a0point\'a0of\'a0pizza"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "9"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(a,b\\\\right)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "hidden"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "11"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#c74440"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "a=-11"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "hidden"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "-20"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "0"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderInterval"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "1"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "12"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#2d70b3"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "b=11"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "hidden"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderHardMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMin"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "0"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderMax"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "20"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "sliderInterval"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "1"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "15"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#fa7e19"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "-\\\\sqrt\{\\\\left(0.5d\\\\right)^2-\\\\left(x-a\\\\right)^2\}+b\\\\le\'a0y\\\\le\\\\sqrt\{\\\\left(0.5d\\\\right)^2-\\\\left(x-a\\\\right)^2\}+b"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "16"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#c74440"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "-\\\\sqrt\{\\\\left(0.5\\\\left(d-2c\\\\right)\\\\right)^2-\\\\left(x-a\\\\right)^2\}+b\\\\le\'a0y\\\\le\\\\sqrt\{\\\\left(0.5\\\\left(d-2c\\\\right)\\\\right)^2-\\\\left(x-a\\\\right)^2\}+b"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "text"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "18"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "text"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Point\'a0to\'a0Resize\'a0Pizza"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "20"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(a,b+u\\\\right)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "showLabel"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "label"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\{d\}\'a0in."\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "POINT"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Y"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "labelSize"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "small"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "25"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "x=a\\\\left\\\\\{b-u\\\\le\'a0y\\\\le\'a0b+u\\\\right\\\\\}"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "DASHED"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "26"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "y=b\\\\left\\\\\{a+u-c\\\\le\'a0x\\\\le\'a0a+u\\\\right\\\\\}"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "DASHED"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "27"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(a+u-0.5c,b+.5\\\\right)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "showLabel"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "label"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\{c\}\'a0in."\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "hidden"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "POINT"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "labelSize"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "small"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "text"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "52"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "text"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "------------------------------"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "folder"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "29"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "title"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Graph,\'a0Inside\'a0Percent"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "collapsed"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "memberIds"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "30"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "30"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#c74440"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "I\\\\left(x\\\\right)=\\\\frac\{\\\\pi\\\\left(0.5x-c\\\\right)^2\}\{\\\\pi\\\\left(0.5x\\\\right)^2\}\\\\left\\\\\{2c\\\\le\'a0x\\\\right\\\\\}"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "folder"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "41"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "title"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Evaluator,\'a0Inside\'a0Percent"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "collapsed"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "memberIds"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "43"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "44"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "45"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "46"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "54"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "57"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "43"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(d,0\\\\right)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "label"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\{d\}\'a0in."\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "labelSize"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "small"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "45"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#388c46"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "j_1=\\\\operatorname\{round\}\\\\left(I\\\\left(d\\\\right)\\\\cdot100\\\\right)"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "46"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "x=d\\\\left\\\\\{0\\\\le\'a0y\\\\le\'a0I\\\\left(d\\\\right)\\\\right\\\\\}"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "DASHED"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "54"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "y=I\\\\left(d\\\\right)\\\\left\\\\\{0\\\\le\'a0x\\\\le\'a0d\\\\right\\\\\}"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "DASHED"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "57"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#c74440"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(0,I\\\\left(d\\\\right)\\\\right)"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "44"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#c74440"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(d,I\\\\left(d\\\\right)\\\\right)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "showLabel"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "label"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\{j_1\}%"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "POINT"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "labelSize"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "small"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "folder"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "40"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "title"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Graph,\'a0Crust\'a0Percent"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "hidden"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "collapsed"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "memberIds"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "37"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "37"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#fa7e19"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "C\\\\left(x\\\\right)=\\\\frac\{\\\\pi\\\\left(0.5x\\\\right)^2-\\\\pi\\\\left(0.5x-c\\\\right)^2\}\{\\\\pi\\\\left(0.5x\\\\right)^2\}\\\\left\\\\\{2c\\\\le\'a0x\\\\right\\\\\}"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "folder"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "47"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "title"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Evaluator,\'a0Crust\'a0Percent"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "hidden"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "collapsed"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "memberIds"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "48"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "49"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "50"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "51"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "55"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "56"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "48"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(d,0\\\\right)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "label"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\{d\}\'a0in."\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "labelSize"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "small"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "49"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "j_2=100-j_1"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "50"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "x=d\\\\left\\\\\{0\\\\le\'a0y\\\\le\'a0C\\\\left(d\\\\right)\\\\right\\\\\}"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "DASHED"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "55"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "y=C\\\\left(d\\\\right)\\\\left\\\\\{0\\\\le\'a0x\\\\le\'a0d\\\\right\\\\\}"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "DASHED"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "56"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#fa7e19"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(0,C\\\\left(d\\\\right)\\\\right)"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "51"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#fa7e19"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\\\\left(d,C\\\\left(d\\\\right)\\\\right)"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "showLabel"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "label"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "\{j_2\}%"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "style"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "POINT"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "labelSize"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "small"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "text"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "58"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "text"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "------------------------------"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "folder"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "59"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "title"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Square\'a0Inches"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "hidden"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "collapsed"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "memberIds"
+\f0\b0 \cf2 \strokec2 :\{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "61"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "62"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "63"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "64"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 true\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "61"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#2d70b3"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Q_1=\\\\left[a-u,a-u+1...a+u\\\\right]"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "62"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "x=Q_1\\\\left\\\\\{b-u\\\\le\'a0y\\\\le\'a0b+u\\\\right\\\\\}"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "dragMode"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "NONE"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "63"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#fa7e19"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "Q_2=\\\\left[b-u,b-u+1...b+u\\\\right]"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \},\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \{\'a0\'a0\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "type"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "expression"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "id"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "64"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "color"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "#000000"\cf2 \strokec2 ,\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\b \cf4 \strokec4 "latex"
+\f0\b0 \cf2 \strokec2 :\cf3 \strokec3 "y=Q_2\\\\left\\\\\{a-u\\\\le\'a0x\\\\le\'a0a+u\\\\right\\\\\}"\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\cf2 \strokec2 ]\cf3 \strokec3 \
+\'a0\'a0\'a0\cf2 \strokec2 \}\cf3 \strokec3 \
+\cf2 \strokec2 \}}
